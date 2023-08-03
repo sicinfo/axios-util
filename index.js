@@ -5,7 +5,9 @@
  */
 'use strict'
 
-System.register(['axios'], (_export, _context) => {
+System.register([
+  'https://cdn.jsdelivr.net/gh/axios/axios@1.4/dist/axios.min.js'
+], (_export, _context) => {
 
   const Authorization = 'authorization';
   const LINKS = 'links';
